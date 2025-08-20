@@ -26,7 +26,7 @@ def receive_email(credential):
         body = msg_data[0][1]
         message = message_from_bytes(body)
 
-        print(f"Sender: {message['from']}")
+        print(f"From: {message['from']}")
         print(f"Subject: {decode_email_header(message['subject'])}")
         print(f"Date: {message['date']}")
 
