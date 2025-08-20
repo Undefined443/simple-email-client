@@ -24,7 +24,7 @@ A simple and secure email sending application built with Python, featuring SMTP 
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd email
+   cd simple-email-client
    ```
 
 2. **Install dependencies using uv**
@@ -91,7 +91,7 @@ email = {
 ## Project Structure
 
 ```
-email/
+simple-email-client/
 ├── main.py          # Main application entry point
 ├── send.py          # Email sending functionality
 ├── receive.py       # Email receiving functionality
