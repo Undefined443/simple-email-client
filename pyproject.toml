@@ -1,0 +1,9 @@
+[project]
+name = "simple-email-client"
+version = "0.1.0"
+description = "Simple email client for sending and receiving emails"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv",
+]
